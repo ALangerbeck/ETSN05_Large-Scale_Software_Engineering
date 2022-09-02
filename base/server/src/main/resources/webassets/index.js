@@ -11,6 +11,10 @@ base.mainController = (function() {
         'admin': {
             partial: 'admin/user-admin.html',
             controller: base.userAdminController
+        },
+        'hello': {
+            partial: 'hello/hello.html',
+            controller: base.helloController
         }
     };
 

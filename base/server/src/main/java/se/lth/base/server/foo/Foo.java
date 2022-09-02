@@ -12,6 +12,8 @@ public class Foo {
     private final int userId;
     private final String payload;
     private final long created;
+    private final int total = 5; // Feel free to chose another number, but the name must be total
+    //This will add the field to the output of the server as a constant.
 
     public Foo(int id, int userId, String payload, long created) {
         this.id = id;
